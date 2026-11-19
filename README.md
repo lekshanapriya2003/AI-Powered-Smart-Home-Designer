@@ -159,25 +159,3 @@ npm run dev                                           # open http://localhost:51
 ```
 
 Tests (no database or API keys needed): `cd backend && pytest -v`. There are 61: 23 for the floor plan validator, 5 for the image prompts, 21 for the layout builder and 12 for the door and window planner.
-
-## Sample outputs
-
-Add screenshots to `docs/screenshots/` and link them here before the interview.
-
-- _[Screenshot placeholder: requirement form with the plot size mismatch warning]_
-- _[Screenshot placeholder: three concept tabs with the Recommended badge]_
-- _[Screenshot placeholder: ground floor plan with parking, doors and windows]_
-- _[Screenshot placeholder: G+1 plan with the First Floor tab]_
-- _[Screenshot placeholder: 4-image gallery for the recommended design]_
-- _[Screenshot placeholder: feasibility note for 3BHK + 2 cars on a ground floor]_
-- _[Screenshot placeholder: version list v1, v2, v3 with the change summary]_
-
-## Limitations and assumptions
-
-The short version is below. See [docs/LIMITATIONS.md](docs/LIMITATIONS.md) for the full list.
-
-- Cost estimates use assumed rates per sq ft (Traditional ₹1,800 to 2,300, Modern ₹2,200 to 2,800, Luxury ₹3,200 to 4,500) on the total room area. They are rough estimates, not quotations.
-- Plans are concept drawings, not construction drawings. The LLM can still produce odd layouts that pass the checks.
-- AI images show style and colours, not the exact floor plan.
-- Free tiers have rate limits, so generation can be slow or fall back to the second provider.
-
