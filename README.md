@@ -157,5 +157,3 @@ cd ../frontend
 npm install
 npm run dev                                           # open http://localhost:5173
 ```
-
-Tests (no database or API keys needed): `cd backend && pytest -v`. There are 61: 23 for the floor plan validator, 5 for the image prompts, 21 for the layout builder and 12 for the door and window planner.
